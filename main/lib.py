@@ -32,3 +32,6 @@ def solve(equation, vars):
         print('='*50)
         result.append(tmp)
     return result
+
+
+

@@ -1,9 +1,4 @@
-from sympy import *
-import sympy
-import random
-from sympy.core.symbol import symbols
-from sympy.solvers.solveset import nonlinsolve
-from lib import *
+from main.lib import *
 init_printing()
 a0, b, c, d,d1,d2, d3 = symbols('a0, b, c, d, d1, d2, d3')
 a1,a2,a3,  b1, c1 = symbols('a1,a2,a3, b1, c1')

@@ -1,6 +1,6 @@
-from my_integration import *
 from sympy import *
-import random
+
+from tests.my_integration import *
 
 # ========== variables and functions definition ========== #
 c0, c1, c2, c3, c4, c5, t, x, y = symbols('c0, c1, c2, c3, c4, c5, t, x, y')
